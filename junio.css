@@ -1,0 +1,56 @@
+body{
+    width: auto;
+    font-family: 'Urbanist',sans-serif;
+}
+header{
+    width: auto;
+    background-color: rgb(130, 205, 197);
+    padding: 1%;
+    text-align: center;
+}
+.icon{
+    width: 120px;
+    top: -135px;
+    left: 15px;
+    position: relative;
+    transition: 2s;
+}
+.icon:hover{
+    transform: scale(0.9);
+}
+li{
+    list-style: none;
+}
+nav{
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+nav ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    *display: inline;
+}
+nav li{
+    float: left;
+    padding: 2x 1px;
+    border: 1px solid #39877f;
+    margin: 15px;
+    padding: 50px;
+    border-radius: 50px;
+}
+nav li a{
+    top: 30px;
+    text-decoration: none;
+    color: #82cdc5;
+}
+nav li a:hover{
+    color: #39877f;
+}
+.info{
+    padding: 20px;
+    position: relative;
+    top: -120px;
+}
